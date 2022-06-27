@@ -28,6 +28,7 @@ export default function Cards({item}) {
 
 
     function check(current) {
+
         if (items[current].id == items[prev].id) {
             items[current].stat = "correct"
             items[prev].stat = "correct"
@@ -49,6 +50,7 @@ export default function Cards({item}) {
 
 
     function handleClick(id) {
+
         if (prev === -1) {
             setItems([...items])
             setPrev(id)

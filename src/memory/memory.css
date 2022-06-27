@@ -54,7 +54,8 @@ text-align: center;
 }
 
 .card.correct{
-    background-color: #4c2f50;
+    /*background-color: #4c2f50;*/
+    background-color: #ACD522;
 }
 
 .card.active img{
@@ -62,7 +63,8 @@ text-align: center;
 }
 
 .card.wrong{
-    background-color: #fd245a;
+    /*background-color: #fd245a;*/
+    background-color: #F4522A;
 }
 
 .card.active img{
